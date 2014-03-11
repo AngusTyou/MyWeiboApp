@@ -18,6 +18,8 @@
 		11B2B075167B877400D0A60F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B2B074167B877400D0A60F /* Default-568h@2x.png */; };
 		11B2B078167B877400D0A60F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B2B076167B877400D0A60F /* MainStoryboard.storyboard */; };
 		11B2B07B167B877400D0A60F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B2B07A167B877400D0A60F /* ViewController.m */; };
+		11B2B083167B894600D0A60F /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B2B082167B894600D0A60F /* TimelineViewController.m */; };
+		11B2B085167B8FE300D0A60F /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B2B084167B8FE300D0A60F /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		11B2B077167B877400D0A60F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		11B2B079167B877400D0A60F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		11B2B07A167B877400D0A60F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11B2B081167B894600D0A60F /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		11B2B082167B894600D0A60F /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		11B2B084167B8FE300D0A60F /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B2B085167B8FE300D0A60F /* Twitter.framework in Frameworks */,
 				11B2B05F167B877300D0A60F /* UIKit.framework in Frameworks */,
 				11B2B061167B877300D0A60F /* Foundation.framework in Frameworks */,
 				11B2B063167B877300D0A60F /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +62,7 @@
 		11B2B04F167B877300D0A60F = {
 			isa = PBXGroup;
 			children = (
+				11B2B084167B8FE300D0A60F /* Twitter.framework */,
 				11B2B064167B877300D0A60F /* MyWeiboApp */,
 				11B2B05D167B877300D0A60F /* Frameworks */,
 				11B2B05B167B877300D0A60F /* Products */,
@@ -89,6 +96,8 @@
 				11B2B079167B877400D0A60F /* ViewController.h */,
 				11B2B07A167B877400D0A60F /* ViewController.m */,
 				11B2B065167B877300D0A60F /* Supporting Files */,
+				11B2B081167B894600D0A60F /* TimelineViewController.h */,
+				11B2B082167B894600D0A60F /* TimelineViewController.m */,
 			);
 			path = MyWeiboApp;
 			sourceTree = "<group>";
@@ -176,6 +185,7 @@
 				11B2B06B167B877400D0A60F /* main.m in Sources */,
 				11B2B06F167B877400D0A60F /* AppDelegate.m in Sources */,
 				11B2B07B167B877400D0A60F /* ViewController.m in Sources */,
+				11B2B083167B894600D0A60F /* TimelineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
